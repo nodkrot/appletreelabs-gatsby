@@ -49,44 +49,25 @@ export default function App() {
               <div className="section" key={post.id}>
                 <div
                   id="scene-1"
-                  className={`scene ${
-                    post.id === currentOpenShowcase ? "animate-circle" : ""
-                  }`}
+                  className={`scene ${post.id === currentOpenShowcase ? "animate-circle" : ""}`}
                 >
                   <div className="scene__container">
                     <div className="scene__content">
                       <header>
                         <h1
                           className="scene__title"
-                          dangerouslySetInnerHTML={createMarkup(
-                            post.title.rendered
-                          )}
+                          dangerouslySetInnerHTML={createMarkup(post.title.rendered)}
                         />
                       </header>
-                      <div
-                        dangerouslySetInnerHTML={createMarkup(
-                          post.content.rendered
-                        )}
-                      />
+                      <div dangerouslySetInnerHTML={createMarkup(post.content.rendered)} />
                       {i > 0 && (
-                        <a
-                          href={post.link}
-                          onClick={e => handleViewCase(e, post.id)}
-                        >
-                          VIEW CASE{" "}
-                          <i
-                            className="fa fa-chevron-right"
-                            aria-hidden="true"
-                          />
+                        <a href={post.link} onClick={(e) => handleViewCase(e, post.id)}>
+                          VIEW CASE <i className="fa fa-chevron-right" aria-hidden="true" />
                         </a>
                       )}
                     </div>
                   </div>
-                  <div
-                    className={`scene__outer-circle scene__outer-circle--${
-                      post.acf.theme
-                    }`}
-                  >
+                  <div className={`scene__outer-circle scene__outer-circle--${post.acf.theme}`}>
                     <div className="scene__inner-circle" />
                   </div>
                 </div>
@@ -96,13 +77,9 @@ export default function App() {
         )}
       />
       {posts
-        .filter(post => post.acf.theme !== "home")
-        .map(post => (
-          <Showcase
-            post={post}
-            key={post.id}
-            isActive={post.id === currentOpenShowcase}
-          />
+        .filter((post) => post.acf.theme !== "home")
+        .map((post) => (
+          <Showcase post={post} key={post.id} isActive={post.id === currentOpenShowcase} />
         ))}
       <Footer />
     </>

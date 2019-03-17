@@ -3,11 +3,7 @@ import React from "react"
 export default function Showcase({ post, isActive }) {
   const activeClass = isActive ? "showcase--active" : ""
   return (
-    <div
-      className={`showcase showcase--${
-        post.acf.theme
-      } ${activeClass} showcase--modal`}
-    >
+    <div className={`showcase showcase--${post.acf.theme} ${activeClass} showcase--modal`}>
       {/* <div className="showcase__header container">
         <a href="http://www.appletreelabs.com/" className="showcase__home">
           <img />
@@ -23,11 +19,7 @@ export default function Showcase({ post, isActive }) {
             <div dangerouslySetInnerHTML={{ __html: post.acf.body_1 }} />
           </div>
           <div className="col-md-6 offset-lg-2 showcase__mobile-center-text">
-            <img
-              alt={post.acf.title_1}
-              src={post.acf.image_1}
-              className="showcase__image-1"
-            />
+            <img alt={post.acf.title_1} src={post.acf.image_1} className="showcase__image-1" />
           </div>
         </div>
         <div className="showcase__content-row row">
@@ -36,11 +28,7 @@ export default function Showcase({ post, isActive }) {
             <div dangerouslySetInnerHTML={{ __html: post.acf.body_2 }} />
           </div>
           <div className="col-md-6 col-md-pull-6 showcase__mobile-center-text">
-            <img
-              alt={post.acf.title_2}
-              src={post.acf.image_2}
-              className="showcase__image-2"
-            />
+            <img alt={post.acf.title_2} src={post.acf.image_2} className="showcase__image-2" />
           </div>
         </div>
         <div className="showcase__content-row row">
@@ -61,11 +49,7 @@ export default function Showcase({ post, isActive }) {
             </a> */}
           </div>
           <div className="col-md-6 showcase__mobile-center-text">
-            <img
-              alt={post.acf.title_3}
-              src={post.acf.image_3}
-              className="showcase__image-3"
-            />
+            <img alt={post.acf.title_3} src={post.acf.image_3} className="showcase__image-3" />
           </div>
         </div>
       </div>
