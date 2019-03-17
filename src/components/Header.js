@@ -22,7 +22,7 @@ const linkCss = css`
 `
 
 const logoCss = css`
-  max-width: 200px
+  max-width: 200px;
 `
 
 export default function Header() {

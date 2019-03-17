@@ -38,10 +38,11 @@ export default function Footer() {
       <div css={containerCss}>
         <div css={contactCss}>
           <p css={hiCss}>Say hi!</p>
-          <a css={linkCss} href="mailto:hi@appletreelabs.com">hi@appletreelabs.com</a>
+          <a css={linkCss} href="mailto:hi@appletreelabs.com">
+            hi@appletreelabs.com
+          </a>
         </div>
       </div>
     </footer>
   )
 }
-
