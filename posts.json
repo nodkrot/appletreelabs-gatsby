@@ -109,27 +109,27 @@
     }
   },
   {
-    "id": 1,
-    "date": "2016-12-10T19:04:05",
-    "date_gmt": "2016-12-10T19:04:05",
+    "id": 68,
+    "date": "2017-04-16T21:15:14",
+    "date_gmt": "2017-04-16T21:15:14",
     "guid": {
-      "rendered": "http://appletreelabs.dev/?p=1"
+      "rendered": "http://www.appletreelabs.com/?p=68"
     },
-    "modified": "2017-04-30T22:57:13",
-    "modified_gmt": "2017-04-30T22:57:13",
-    "slug": "rfa",
+    "modified": "2018-07-22T20:22:03",
+    "modified_gmt": "2018-07-22T20:22:03",
+    "slug": "delivery-com",
     "status": "publish",
     "type": "post",
-    "link": "http://www.appletreelabs.com/rfa/",
+    "link": "http://www.appletreelabs.com/delivery-com/",
     "title": {
-      "rendered": "RFA"
+      "rendered": "Delivery.com"
     },
     "content": {
-      "rendered": "<p>Automating IT services to create products.</p>\n",
+      "rendered": "<p>Improving On-Demand Delivery Product.</p>\n",
       "protected": false
     },
     "excerpt": {
-      "rendered": "<p>Automating IT services to create products.</p>\n",
+      "rendered": "<p>Improving On-Demand Delivery Product.</p>\n",
       "protected": false
     },
     "author": 1,
@@ -147,7 +147,7 @@
     "_links": {
       "self": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/1"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/68"
         }
       ],
       "collection": [
@@ -169,29 +169,29 @@
       "replies": [
         {
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/comments?post=1"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/comments?post=68"
         }
       ],
       "version-history": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/1/revisions"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/68/revisions"
         }
       ],
       "wp:attachment": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/media?parent=1"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/media?parent=68"
         }
       ],
       "wp:term": [
         {
           "taxonomy": "category",
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/categories?post=1"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/categories?post=68"
         },
         {
           "taxonomy": "post_tag",
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/tags?post=1"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/tags?post=68"
         }
       ],
       "curies": [
@@ -203,18 +203,18 @@
       ]
     },
     "acf": {
+      "theme": "blue",
+      "header": "Unifying Delivery.com Product Strategy",
       "title_1": "Background",
-      "body_1": "<p>RFA is a managed service provider of IT for financial companies, and its been doing everything manually for over 25 years. It&#8217;s grown it&#8217;s excellence by maintaining a high level of quality and came to us to help improve it even further.</p>\n",
-      "image_1": "http://www.appletreelabs.com/wp-content/uploads/2016/12/rfa-home@2x.png",
+      "body_1": "<p>Delivery.com is a marketplace for on demand delivery. Unique to it&#8217;s competitors&#8217; in that you can order food, alcohol, groceries and even laundry from one website.</p>\n",
+      "image_1": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom1.png",
       "title_2": "Process",
-      "body_2": "<p>Today it looks to continue to improve the services offered by automating manual processes into applications that map to it&#8217;s business processes. We reviewed multiple process that had highly repetitive tasks and pinpointed which were the most cost effective to automate.</p>\n",
-      "image_2": "http://www.appletreelabs.com/wp-content/uploads/2016/12/rfa-adi@2x-1.png",
+      "body_2": "<p>A massive system that was built over time had developed inconsistencies that would bubble up to its user interface in both technical implementation and design looks &amp; feel. We began to lay the ground work for a strong product process.</p>\n",
+      "image_2": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom2.png",
       "title_3": "Results",
-      "body_3": "<p>We&#8217;ve created two applications; one is internal, the other is consumer facing. In doing so, we&#8217;ve laid down the framework to create consistent user experiences, while providing easy interfaces to ensure higher success rate. We have already decreased cost and increased reliability.</p>\n",
-      "image_3": "http://www.appletreelabs.com/wp-content/uploads/2016/12/mobile@2x.png",
-      "link": "http://rfa.com/",
-      "header": "Inventing RFA's Product Strategy",
-      "theme": "purple"
+      "body_3": "<p>The result of following a process driven product development process lead to the creation of a design style guide, consistent on all platforms, API&#8217;s that were consistent and thoughtfully architected. The combination of these two things made a user interface and experience that was comfortable to the user, while performing excellently.</p>\n",
+      "image_3": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom3.png",
+      "link": "https://www.delivery.com/"
     }
   },
   {
@@ -327,27 +327,27 @@
     }
   },
   {
-    "id": 68,
-    "date": "2017-04-16T21:15:14",
-    "date_gmt": "2017-04-16T21:15:14",
+    "id": 1,
+    "date": "2016-12-10T19:04:05",
+    "date_gmt": "2016-12-10T19:04:05",
     "guid": {
-      "rendered": "http://www.appletreelabs.com/?p=68"
+      "rendered": "http://appletreelabs.dev/?p=1"
     },
-    "modified": "2018-07-22T20:22:03",
-    "modified_gmt": "2018-07-22T20:22:03",
-    "slug": "delivery-com",
+    "modified": "2017-04-30T22:57:13",
+    "modified_gmt": "2017-04-30T22:57:13",
+    "slug": "rfa",
     "status": "publish",
     "type": "post",
-    "link": "http://www.appletreelabs.com/delivery-com/",
+    "link": "http://www.appletreelabs.com/rfa/",
     "title": {
-      "rendered": "Delivery.com"
+      "rendered": "RFA"
     },
     "content": {
-      "rendered": "<p>Improving On-Demand Delivery Product.</p>\n",
+      "rendered": "<p>Automating IT services to create products.</p>\n",
       "protected": false
     },
     "excerpt": {
-      "rendered": "<p>Improving On-Demand Delivery Product.</p>\n",
+      "rendered": "<p>Automating IT services to create products.</p>\n",
       "protected": false
     },
     "author": 1,
@@ -365,7 +365,7 @@
     "_links": {
       "self": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/68"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/1"
         }
       ],
       "collection": [
@@ -387,29 +387,29 @@
       "replies": [
         {
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/comments?post=68"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/comments?post=1"
         }
       ],
       "version-history": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/68/revisions"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/posts/1/revisions"
         }
       ],
       "wp:attachment": [
         {
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/media?parent=68"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/media?parent=1"
         }
       ],
       "wp:term": [
         {
           "taxonomy": "category",
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/categories?post=68"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/categories?post=1"
         },
         {
           "taxonomy": "post_tag",
           "embeddable": true,
-          "href": "http://www.appletreelabs.com/wp-json/wp/v2/tags?post=68"
+          "href": "http://www.appletreelabs.com/wp-json/wp/v2/tags?post=1"
         }
       ],
       "curies": [
@@ -421,18 +421,18 @@
       ]
     },
     "acf": {
-      "theme": "blue",
-      "header": "Unifying Delivery.com Product Strategy",
       "title_1": "Background",
-      "body_1": "<p>Delivery.com is a marketplace for on demand delivery. Unique to it&#8217;s competitors&#8217; in that you can order food, alcohol, groceries and even laundry from one website.</p>\n",
-      "image_1": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom1.png",
+      "body_1": "<p>RFA is a managed service provider of IT for financial companies, and its been doing everything manually for over 25 years. It&#8217;s grown it&#8217;s excellence by maintaining a high level of quality and came to us to help improve it even further.</p>\n",
+      "image_1": "http://www.appletreelabs.com/wp-content/uploads/2016/12/rfa-home@2x.png",
       "title_2": "Process",
-      "body_2": "<p>A massive system that was built over time had developed inconsistencies that would bubble up to its user interface in both technical implementation and design looks &amp; feel. We began to lay the ground work for a strong product process.</p>\n",
-      "image_2": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom2.png",
+      "body_2": "<p>Today it looks to continue to improve the services offered by automating manual processes into applications that map to it&#8217;s business processes. We reviewed multiple process that had highly repetitive tasks and pinpointed which were the most cost effective to automate.</p>\n",
+      "image_2": "http://www.appletreelabs.com/wp-content/uploads/2016/12/rfa-adi@2x-1.png",
       "title_3": "Results",
-      "body_3": "<p>The result of following a process driven product development process lead to the creation of a design style guide, consistent on all platforms, API&#8217;s that were consistent and thoughtfully architected. The combination of these two things made a user interface and experience that was comfortable to the user, while performing excellently.</p>\n",
-      "image_3": "http://www.appletreelabs.com/wp-content/uploads/2017/04/dcom3.png",
-      "link": "https://www.delivery.com/"
+      "body_3": "<p>We&#8217;ve created two applications; one is internal, the other is consumer facing. In doing so, we&#8217;ve laid down the framework to create consistent user experiences, while providing easy interfaces to ensure higher success rate. We have already decreased cost and increased reliability.</p>\n",
+      "image_3": "http://www.appletreelabs.com/wp-content/uploads/2016/12/mobile@2x.png",
+      "link": "http://rfa.com/",
+      "header": "Inventing RFA's Product Strategy",
+      "theme": "purple"
     }
   },
   {

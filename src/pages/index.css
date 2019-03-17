@@ -160,7 +160,8 @@
   padding: 0;
 }
 .showcase p {
-  color: #aaa;
+  font-weight: 300;
+  letter-spacing: 1.25px;
 }
 .showcase__image-1 {
   margin-top: -88px;
