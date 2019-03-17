@@ -1,0 +1,270 @@
+/* @font-face {
+  font-family: 'texgyreadventorbold';
+  src: url('../fonts/texgyreadventor-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'texgyreadventorregular';
+  src: url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'texgyreadventoritalic';
+  src: url('../fonts/texgyreadventor-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* Main */
+.home-page::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1600;
+  background: #fff;
+  transition: all 0.2s;
+  opacity: 0;
+  visibility: hidden;
+}
+.home-page--loading::after {
+  opacity: 1;
+  visibility: visible;
+}
+.scene__container {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.scene__content {
+  max-width: 250px;
+  position: relative;
+  z-index: 1;
+}
+.scene__title {
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.23;
+  color: inherit;
+}
+.scene__outer-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -250px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-out 0.2s;
+}
+.scene__outer-circle--home, .scene__outer-circle--orange {
+  background-image: linear-gradient(-180deg, #a40014 0%, #f07264 28%, #fea180 57%, #fcc88d 100%);
+}
+.scene__outer-circle--blue {
+  background-image: linear-gradient(-180deg, #4438a6 0%, #3a5bc2 28%, #57a1f2 57%, #b6b5ec 100%);
+}
+.scene__outer-circle--cyan {
+  background-image: linear-gradient(-180deg, #00bdb9 0%, #5de9e5 25%, #d3fefd 70%, #ffdfb6 100%);
+}
+.scene__outer-circle--purple {
+  background-image: linear-gradient(-180deg, #142256 0%, #4a52a5 37%, #ba97db 76%, #ffb797 100%);
+}
+.animate-circle .scene__outer-circle {
+  transition: transform 0.32s ease-in;
+  transform: scale3d(5.5, 5.5, 5.5);
+}
+.scene__inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s ease-out;
+}
+
+/* Showcase */
+.showcase {
+  background-color: #fff;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1000;
+}
+.showcase--modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s 0.14s;
+}
+.showcase--active {
+  opacity: 1;
+  visibility: visible;
+}
+.showcase__logo {
+  position: absolute;
+  max-width: 200px;
+  left: 15px;
+  top: 44px;
+  z-index: 1;
+}
+.showcase__separator {
+  background: #4144b0;
+  border-radius: 8px;
+  width: 88px;
+  height: 8px;
+  margin: 62px 0;
+}
+.showcase__content {
+  margin-top: -160px;
+}
+.showcase__content::after {
+  content: '';
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: -444px;
+  right: -480px;
+  border-radius: 50%;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.05);
+}
+@media screen and (max-width: 414px) {
+  .showcase__content::after {
+    display: none;
+  }
+}
+.showcase__content-row {
+  padding-bottom: 160px;
+}
+.showcase__content-row:last-child {
+  padding: 0;
+}
+.showcase p {
+  color: #aaa;
+}
+.showcase__image-1 {
+  margin-top: -88px;
+  height: 90vw;
+  max-height: 600px;
+}
+.showcase__image-2 {
+  margin-top: -48px;
+  float: right;
+  height: 100vw;
+  max-height: 500px;
+}
+.showcase__image-3 {
+  margin-top: -88px;
+  height: 100vw;
+  max-height: 600px;
+}
+@media screen and (max-width: 768px) {
+  .showcase__image-1, .showcase__image-2, .showcase__image-3 {
+    margin-top: 32px;
+  }
+  .showcase__content-row {
+    padding-bottom: 80px;
+  }
+  .showcase__mobile-center-text {
+    text-align: center;
+  }
+}
+.showcase__link {
+  margin: 80px 0 140px;
+}
+.showcase__top-bg, .showcase__bottom-bg {
+  position: relative;
+  height: 500px;
+  z-index: -2;
+}
+.showcase__top-bg::after, .showcase__bottom-bg::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 150%;
+  height: 278%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .showcase__top-bg, .showcase__bottom-bg {
+    height: 400px;
+  }
+  .showcase__top-bg::after, .showcase__bottom-bg::after {
+    width: 174%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .showcase__top-bg, .showcase__bottom-bg {
+    height: 370px;
+  }
+  .showcase__top-bg::after, .showcase__bottom-bg::after {
+    width: 220%;
+  }
+}
+.showcase__top-bg::after {
+  top: 0;
+  background-color: #fff;
+  transform: translate(-50%, 14%);
+}
+.showcase__bottom-bg::after {
+  bottom: 0;
+  background-color: #fff;
+  transform: translate(-50%, -16%);
+}
+.showcase--orange .showcase__top-bg {
+  background-image: linear-gradient(-180deg, #a80618 0%, #f27968 28%, #bbf9f7 100%);
+}
+.showcase--orange .showcase__bottom-bg {
+  background-image: linear-gradient(-180deg, #f4806c 9%, #fce0b9 100%);
+}
+.showcase--blue .showcase__top-bg {
+  background-image: linear-gradient(-180deg, #4438a6 0%, #3a5bc2 28%, #57a1f2 100%);
+}
+.showcase--blue .showcase__bottom-bg {
+  background-image: linear-gradient(-180deg, #4438a6 0%, #3a5bc2 28%, #57a1f2 100%);
+}
+.showcase--cyan .showcase__top-bg {
+  background-image: linear-gradient(-180deg, #03beba 0%, #71ece9 28%, #bbf9f7 100%);
+}
+.showcase--cyan .showcase__bottom-bg {
+  background-image: linear-gradient(-180deg, #30d4d0 0%, #fce0b9 100%);
+}
+.showcase--purple .showcase__top-bg {
+  background-image: linear-gradient(-180deg, #162459 0%, #464e9e 31%, #9387c9 100%);
+}
+.showcase--purple .showcase__bottom-bg {
+  background-image: linear-gradient(-180deg, #454e9e 9%, #fdb69a 100%);
+}
+.showcase__bottom-content {
+  margin-top: 320px;
+}
+.showcase__bottom-content .showcase__next-up {
+  color: #fff;
+}
+.showcase__bottom-content .showcase__next-showcase {
+  color: #fff;
+  font-size: 32px;
+}
+.showcase__bottom-content .showcase__next-showcase:hover {
+  color: #fafafa;
+}
