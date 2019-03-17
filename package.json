@@ -1,9 +1,11 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "appletreelabs-gatsby",
+  "description": "Company portfolio website built with Gatsby",
   "version": "0.1.0",
   "license": "MIT",
+  "author": {
+    "name": "Vyacheslav Alayev"
+  },
   "scripts": {
     "build": "gatsby build",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -27,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/nodkrot/appletreelabs-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/nodkrot/appletreelabs-gatsby/issues"
   }
 }
