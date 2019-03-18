@@ -1,6 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
-import logo from "src/images/logo.png"
+import logo from "../images/logo.png"
 
 const headerCss = css`
   position: fixed;

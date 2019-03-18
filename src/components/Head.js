@@ -1,6 +1,6 @@
 import React from "react"
 import Helmet from "react-helmet"
-import favicon from "src/images/favicon.ico"
+import favicon from "../images/favicon.ico"
 
 export default function Head() {
   return (
