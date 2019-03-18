@@ -9,6 +9,7 @@ import "./bootstrap.css"
 import "./index.css"
 
 export default function App() {
+  const [isOverlay, setIsOverlay] = useState(true)
   const [currentOpenShowcase, setCurrentOpenShowcase] = useState(null)
 
   useEffect(() => {
@@ -38,7 +39,9 @@ export default function App() {
       <Head />
       <Header />
       <ReactFullpage
+        navigation
         normalScrollElements={".showcase"}
+        afterRender={() => setIsOverlay(false)}
         render={({ state, fullpageApi }) => (
           <ReactFullpage.Wrapper>
             {posts.map((post, i) => (
@@ -77,6 +80,7 @@ export default function App() {
         .map((post) => (
           <Showcase post={post} key={post.id} isActive={post.id === currentOpenShowcase} />
         ))}
+      <div className={`overlay ${isOverlay ? "" : "overlay-off"}`} />
       <Footer />
     </>
   )

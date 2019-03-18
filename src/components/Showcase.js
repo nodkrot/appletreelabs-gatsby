@@ -14,7 +14,7 @@ export default function Showcase({ post, isActive }) {
       <div className="showcase__content container">
         <div className="showcase__content-row row">
           <div className="col-md-6 col-lg-4">
-            <h1>My super dooper title</h1>
+            <h1>{post.acf.header}</h1>
             <hr className="showcase__separator" />
             <h2>{post.acf.title_1}</h2>
             <div dangerouslySetInnerHTML={{ __html: post.acf.body_1 }} />
