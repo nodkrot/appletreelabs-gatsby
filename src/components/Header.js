@@ -1,5 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
+import logo from "src/images/logo.png"
 
 const headerCss = css`
   position: fixed;
@@ -30,7 +31,7 @@ export default function Header() {
     <header css={headerCss}>
       <div css={containerCss}>
         <a css={linkCss} href="http://www.appletreelabs.com/">
-          <img css={logoCss} alt="Appletreelabs" />
+          <img css={logoCss} src={logo} alt="Appletreelabs" />
         </a>
       </div>
     </header>

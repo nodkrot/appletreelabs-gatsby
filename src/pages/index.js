@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import ReactFullpage from "@fullpage/react-fullpage"
+import Head from "../components/Head"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Showcase from "../components/Showcase"
@@ -40,6 +41,7 @@ export default function App() {
 
   return (
     <>
+      <Head />
       <Header />
       <ReactFullpage
         normalScrollElements={".showcase"}
