@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <header css={headerCss}>
       <div css={containerCss}>
-        <a css={linkCss} href="http://www.appletreelabs.com/">
+        <a css={linkCss} href="/">
           <img css={logoCss} src={logo} alt="Appletreelabs" />
         </a>
       </div>
