@@ -4,13 +4,14 @@ import Head from "../components/Head"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Showcase from "../components/Showcase"
-import posts from "../../posts.json"
+import rawPosts from "../../posts.json"
 import "./bootstrap.css"
 import "./index.css"
 
 export default function App() {
   const [isOverlay, setIsOverlay] = useState(true)
   const [currentOpenShowcase, setCurrentOpenShowcase] = useState(null)
+  const posts = rawPosts.filter((post) => post.status === "publish")
 
   useEffect(() => {
     function handleEscPress(e) {
@@ -42,6 +43,7 @@ export default function App() {
         navigation
         normalScrollElements={".showcase"}
         afterRender={() => setIsOverlay(false)}
+        sectionsColor={[]}
         render={({ state, fullpageApi }) => (
           <ReactFullpage.Wrapper>
             {posts.map((post, i) => (

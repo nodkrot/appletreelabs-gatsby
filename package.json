@@ -15,19 +15,19 @@
     "deploy": "gatsby build; gh-pages -d public"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.7",
-    "@emotion/styled": "^10.0.7",
-    "@fullpage/react-fullpage": "^0.1.13",
-    "gatsby": "^2.1.17",
-    "gatsby-plugin-emotion": "^4.0.4",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-helmet": "^5.2.0"
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@fullpage/react-fullpage": "^0.1.15",
+    "gatsby": "^2.13.32",
+    "gatsby-plugin-emotion": "^4.1.2",
+    "gatsby-plugin-react-helmet": "^3.1.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
-    "prettier": "^1.16.4"
+    "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
