@@ -7,12 +7,10 @@ export default function Head() {
     <Helmet
       title="Appletreelabs - The Product Laboratory"
       meta={[
-          { name: 'description', content: "The Product Laboratory" },
-          { name: 'keywords', content: "digital, agency, product, laboratory, html, website" },
+        { name: "description", content: "The Product Laboratory" },
+        { name: "keywords", content: "digital, agency, product, laboratory, html, website" }
       ]}
-      link={[
-          { rel: 'shortcut icon', type: 'image/png', href: favicon }
-      ]}
+      link={[{ rel: "shortcut icon", type: "image/png", href: favicon }]}
     />
   )
 }

@@ -31,6 +31,10 @@ export default function App() {
     setCurrentOpenShowcase(id)
   }
 
+  function handleClose() {
+    setCurrentOpenShowcase(null)
+  }
+
   function createMarkup(str) {
     return { __html: str }
   }
@@ -80,7 +84,12 @@ export default function App() {
       {posts
         .filter((post) => post.acf.theme !== "home")
         .map((post) => (
-          <Showcase post={post} key={post.id} isActive={post.id === currentOpenShowcase} />
+          <Showcase
+            post={post}
+            key={post.id}
+            isActive={post.id === currentOpenShowcase}
+            onClose={handleClose}
+          />
         ))}
       <div className={`overlay ${isOverlay ? "" : "overlay-off"}`} />
       <Footer />

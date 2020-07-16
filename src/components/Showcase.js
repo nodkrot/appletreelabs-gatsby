@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Showcase({ post, isActive }) {
+export default function Showcase({ post, isActive, onClose }) {
   const activeClass = isActive ? "showcase--active" : ""
 
   return (
@@ -10,6 +10,7 @@ export default function Showcase({ post, isActive }) {
           <img />
         </a>
       </div> */}
+      <button title="Close" aria-label="Close" className="showcase__close" onClick={onClose} />
       <div className="showcase__top-bg" />
       <div className="showcase__content container">
         <div className="showcase__content-row row">
